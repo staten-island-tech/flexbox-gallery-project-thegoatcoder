@@ -2,5 +2,21 @@ html, body, *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-size: 100;
+    font-size: 100%;
+}
+
+.parent {
+    font-size: 20px;
+}
+h2 {
+    margin: 1rem;
+}
+.px-size {
+    font-size: 20px;
+}
+.rem-size {
+    font-size: 2rem;
+}
+.rem-size {
+    font-size: 2em;
 }
