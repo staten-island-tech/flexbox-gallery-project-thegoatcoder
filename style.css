@@ -13,6 +13,7 @@ h2 {
 }
 .px-size {
     font-size: 20px;
+    border: chartreuse;
 }
 .rem-size {
     font-size: 2rem;
@@ -20,3 +21,7 @@ h2 {
 .rem-size {
     font-size: 2em;
 }
+
+.driver-card {
+    border: coral;
+} 
