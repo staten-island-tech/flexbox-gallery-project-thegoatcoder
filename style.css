@@ -14,14 +14,16 @@ html, body, *{
     flex-basis: 33%;
 }
 .driver-card {
-    width: 30vw;
+    width: 500px;
     margin: 10rem auto;
     font-size: 10rem;
     border: ;
     transition: 800ms all;
+    margin: 7rem;
 }
 .driver-image {
-    width: 27%;
+    width: 20rem;
+    border-radius: 2rem;
 }
 .driver-image:hover {
     transform: scale(1.07);
