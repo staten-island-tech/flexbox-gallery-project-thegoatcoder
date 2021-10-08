@@ -3,6 +3,7 @@ html, body, *{
     margin: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: 'Gluten', cursive;
 }
 
 .flex-container {
@@ -10,13 +11,18 @@ html, body, *{
     flex-wrap: wrap;
     margin: 3rem auto;
     justify-content: space-between;
+    flex-basis: 33%;
 }
 .driver-card {
     width: 30vw;
     margin: 10rem auto;
-    font-size: 25rem;
+    font-size: 10rem;
     border: ;
+    transition: 800ms all;
 }
 .driver-image {
     width: 27%;
+}
+.driver-image:hover {
+    transform: scale(1.07);
 }
