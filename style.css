@@ -20,15 +20,11 @@ html, body, *{
     margin: 10rem auto;
     font-size: 10rem;
     border: 2rem auto;
-    border-color: ;
-    transition: 800ms all;
-    margin: 30rem auto;
+    transition: 0.3s all;
 }
 .driver-image {
-    
     border-radius: 2rem;
-    flex
-
+    width: 60rem;
 }
 .driver-image:hover {
     transform: scale(1.07);
