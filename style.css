@@ -32,3 +32,19 @@ html, body, *{
 .h1 {
     font-size: 300px;
 }
+
+#hamilton:hover{
+    transform: scale(1.1);
+}
+
+#gasly:{
+    transform: ;
+}
+
+#leclerc:hover{
+    transform: ;
+}
+
+#riccardo:hover{
+    transform: ;
+}
