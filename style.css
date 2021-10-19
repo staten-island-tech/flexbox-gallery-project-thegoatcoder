@@ -37,8 +37,18 @@ html, body, *{
     transform: scale(1.1);
 }
 
-#gasly:{
-    transform: ;
+body {
+    background-image: linear-gradient(#000000, #ff0000) ;
+    animation: 5.5s fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #leclerc:hover{
@@ -47,4 +57,26 @@ html, body, *{
 
 #riccardo:hover{
     transform: ;
+}
+
+@keyframes bounce {
+    0%
+    20%
+    60%
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-2rem)
+    }
+    80% {
+        transform: translateY(-1rem)
+    }
+}
+.driver-image:hover {
+    animation: bounce 0.8s;
+}
+
+#verstappen:hover {
+    background-color: darkblue;
 }
