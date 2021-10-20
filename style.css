@@ -80,3 +80,20 @@ body {
 #verstappen:hover {
     background-color: darkblue;
 }
+@media screen and (max-width: 1250px) {
+    .driver-card {
+        background-color: orangered
+    };
+}
+
+@media screen and (max-width: 1250px) {
+    .driver-card {
+        background-color: orangered
+    };
+}
+
+@media screen and (max-width: 1250px) {
+    .driver-card {
+        background-color: orangered
+    };
+}
