@@ -86,14 +86,14 @@ body {
     };
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 880px) {
     .driver-card {
-        background-color: orangered
+        background-color: rgb(194, 99, 99)
     };
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 600px) {
     .driver-card {
-        background-color: orangered
+        background-color: rgb(255, 255, 255)
     };
 }
