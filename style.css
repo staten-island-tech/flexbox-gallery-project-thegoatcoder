@@ -80,20 +80,30 @@ body {
 #verstappen:hover {
     background-color: darkblue;
 }
-@media screen and (max-width: 1250px) {
+@media (max-width: 1250px) {
     .driver-card {
         background-color: orangered
-    };
+    }
+    .flex-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .driver-image {
+        margin:auto
+    }
 }
 
-@media screen and (max-width: 880px) {
+@media (max-width: 880px) {
     .driver-card {
-        background-color: rgb(194, 99, 99)
-    };
+    
+        width:90%;
+    }
+    .flex-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .driver-image {
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 600px) {
-    .driver-card {
-        background-color: rgb(255, 255, 255)
-    };
-}
